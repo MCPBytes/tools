@@ -1,7 +1,8 @@
 [project]
 name = "mcpbytes-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "Shared runtime of the MCPBytes open-source tools: pinned Hugging Face model downloads and the optional MCPBytes cloud client."
+readme = "README.md"
 license = "AGPL-3.0-only"
 license-files = ["LICENSE"]
 authors = [{ name = "King Of The Hour, LLC" }]

@@ -1,6 +1,6 @@
 [project]
 name = "mcpbytes-pixel-sprite"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate 32x32 pixel-art character sprite sheets with walk animations, Godot and Unity exports, on your own GPU. CLI and MCP server."
 readme = "README.md"
 license = "AGPL-3.0-only AND MIT-0"

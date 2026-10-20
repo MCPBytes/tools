@@ -99,9 +99,9 @@ publishers (all Apache-2.0, no account needed):
 - [svntax-dev/pixel_spritesheet_4walk_small_lora_v1](https://huggingface.co/svntax-dev/pixel_spritesheet_4walk_small_lora_v1) — the sprite-sheet LoRA
 - [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) — the Qwen3 4B text encoder
 
-`HF_HOME`, `HF_ENDPOINT`, `HF_TOKEN` and `HF_HUB_OFFLINE` work as usual. See [NOTICE](NOTICE) for attributions.
+`HF_HOME`, `HF_ENDPOINT`, `HF_TOKEN` and `HF_HUB_OFFLINE` work as usual. See [NOTICE](https://github.com/MCPBytes/tools/blob/main/packages/pixel-sprite/NOTICE) for attributions.
 
 ## Licence
 
 GNU AGPL v3.0 only. The files copied into every export (`IMPORTING.md` and the Unity importer script) are MIT-0, so
-you can ship them in a game under any terms. The sprites you generate are yours. See [NOTICE](NOTICE).
+you can ship them in a game under any terms. The sprites you generate are yours. See [NOTICE](https://github.com/MCPBytes/tools/blob/main/packages/pixel-sprite/NOTICE).
