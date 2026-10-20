@@ -1,0 +1,17 @@
+[project]
+name = "mcpbytes-core"
+version = "0.1.0"
+description = "Shared runtime of the MCPBytes open-source tools: pinned Hugging Face model downloads and the optional MCPBytes cloud client."
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+authors = [{ name = "King Of The Hour, LLC" }]
+requires-python = ">=3.11"
+dependencies = ["huggingface-hub>=1.32,<2"]
+
+[project.urls]
+Homepage = "https://mcpbytes.com"
+Source = "https://github.com/MCPBytes/tools"
+
+[build-system]
+requires = ["uv_build>=0.13,<0.14"]
+build-backend = "uv_build"
