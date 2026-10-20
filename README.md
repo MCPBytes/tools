@@ -6,7 +6,7 @@ GPUs for credits when you pass `--cloud` with an API key.
 
 | Package | What it does | Runs on |
 |---|---|---|
-| [`mcpbytes-pixel-sprite`](packages/pixel-sprite) | 32×32 pixel-art character sprite sheets with walk animations and Godot/Unity exports | NVIDIA GPU (CUDA), or `--cloud` |
+| [`mcpbytes-pixel-sprite`](https://github.com/MCPBytes/mcpbytes-pixel-sprite) | 32×32 pixel-art character sprite sheets with walk animations and Godot/Unity exports | NVIDIA GPU (CUDA), or `--cloud` |
 | [`mcpbytes-core`](packages/core) | Shared runtime: pinned Hugging Face model downloads, the cloud client | — |
 
 ```bash
@@ -18,7 +18,11 @@ their publishers' licences.
 
 ## Development
 
+Each tool lives in its own repository and is checked out here as a submodule under `packages/`, next to the shared
+`mcpbytes-core`, so clone with `--recursive` (or run `git submodule update --init` in an existing clone):
+
 ```bash
+git clone --recursive https://github.com/MCPBytes/tools
 uv sync                # Python 3.11–3.13; CUDA 12.8 PyTorch on Windows and Linux
 uv run pytest
 ```

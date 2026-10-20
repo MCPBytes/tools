@@ -1,0 +1,3 @@
+[submodule "packages/pixel-sprite"]
+	path = packages/pixel-sprite
+	url = https://github.com/MCPBytes/mcpbytes-pixel-sprite.git

@@ -627,7 +627,7 @@ requires-dist = [{ name = "huggingface-hub", specifier = ">=1.32,<2" }]
 
 [[package]]
 name = "mcpbytes-pixel-sprite"
-version = "0.1.1"
+version = "0.1.2"
 source = { editable = "packages/pixel-sprite" }
 dependencies = [
     { name = "accelerate" },
