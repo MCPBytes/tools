@@ -12,7 +12,7 @@ GPUs for credits when you pass `--cloud` with an API key.
 
 ```bash
 uvx --torch-backend=auto mcpbytes-pixel-sprite generate "a forest ranger with a green hood"
-uvx --torch-backend=auto mcpbytes-image-to-3d chair.jpg
+uvx --python 3.12 --torch-backend=auto mcpbytes-image-to-3d chair.jpg
 ```
 
 Model weights are never bundled: each tool downloads them from their publishers, at pinned commits or
