@@ -616,14 +616,14 @@ wheels = [
 
 [[package]]
 name = "mcpbytes-core"
-version = "0.1.1"
+version = "0.1.2"
 source = { editable = "packages/core" }
 dependencies = [
     { name = "huggingface-hub" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "huggingface-hub", specifier = ">=1.32,<2" }]
+requires-dist = [{ name = "huggingface-hub", specifier = ">=0.30,<2" }]
 
 [[package]]
 name = "mcpbytes-pixel-sprite"

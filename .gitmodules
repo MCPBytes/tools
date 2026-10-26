@@ -1,3 +1,6 @@
 [submodule "packages/pixel-sprite"]
 	path = packages/pixel-sprite
 	url = https://github.com/MCPBytes/mcpbytes-pixel-sprite.git
+[submodule "packages/image-to-3d"]
+	path = packages/image-to-3d
+	url = https://github.com/MCPBytes/mcpbytes-image-to-3d.git

@@ -1,13 +1,14 @@
 [project]
 name = "mcpbytes-core"
-version = "0.1.1"
+version = "0.1.2"
 description = "Shared runtime of the MCPBytes open-source tools: pinned Hugging Face model downloads and the optional MCPBytes cloud client."
 readme = "README.md"
 license = "AGPL-3.0-only"
 license-files = ["LICENSE"]
 authors = [{ name = "King Of The Hour, LLC" }]
 requires-python = ">=3.11"
-dependencies = ["huggingface-hub>=1.32,<2"]
+# 0.30 is the oldest release whose API hub.py uses; mcpbytes-image-to-3d runs Hunyuan3D's transformers 4.46, which needs huggingface-hub<1.
+dependencies = ["huggingface-hub>=0.30,<2"]
 
 [project.urls]
 Homepage = "https://mcpbytes.com"

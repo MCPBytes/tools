@@ -9,4 +9,4 @@ You normally don't install it yourself: a tool package such as
 
 ## Licence
 
-GNU AGPL v3.0 only. "MCPBytes" is a trade name of King Of The Hour, LLC; the licence grants no rights to it.
+GNU AGPL v3.0 only.

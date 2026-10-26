@@ -13,6 +13,9 @@ package = false
 
 [tool.uv.workspace]
 members = ["packages/*"]
+# image-to-3d runs Hunyuan3D 2.1's older ML stack (transformers 4.46), which cannot share one lock with
+# pixel-sprite's: it keeps its own environment (see README).
+exclude = ["packages/image-to-3d"]
 
 [tool.uv.sources]
 mcpbytes-core = { workspace = true }
@@ -27,4 +30,4 @@ explicit = true
 
 [tool.pytest.ini_options]
 testpaths = ["packages"]
-addopts = "--import-mode=importlib"
+addopts = "--import-mode=importlib --ignore=packages/image-to-3d"
